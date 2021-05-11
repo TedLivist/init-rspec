@@ -1,3 +1,5 @@
+require_relative '../lib/calculator.rb'
+
 describe Calculator do
   describe "#add" do
     it "returns the sum of two numbers" do
