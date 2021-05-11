@@ -17,4 +17,10 @@ describe Calculator do
       expect(calculator.subtract(5, 2)).to eql(3)
     end
   end
+
+  context "#multiply" do
+    example "product of numbers" do
+      expect(calculator.multiply(2, 3, 5)).to eql(30)
+    end
+  end
 end
