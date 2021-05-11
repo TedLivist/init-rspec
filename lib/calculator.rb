@@ -22,4 +22,8 @@ class Calculator
     end
     init_num
   end
+
+  def divide(a, b)
+    a / b
+  end
 end
