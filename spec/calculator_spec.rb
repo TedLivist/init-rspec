@@ -23,4 +23,11 @@ describe Calculator do
       expect(calculator.multiply(2, 3, 5)).to eql(30)
     end
   end
+
+  # all methods above can also be written following this syntax
+  describe "#divide" do
+    it "returns the division between two numbers" do
+      expect(calculator.divide(10, 2)).to eql(5)
+    end
+  end
 end
