@@ -6,4 +6,8 @@ class Calculator
     end
     sum
   end
+
+  def subtract(a, b)
+    a - b
+  end
 end
