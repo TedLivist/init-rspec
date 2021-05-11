@@ -11,4 +11,8 @@ describe Calculator do
       expect(calculator.add(1, 2, 3)).to eql(6)
     end
   end
+
+  context "#subtract" do
+    expect(calculator.subtract(5, 2)).to eql(3)
+  end
 end
