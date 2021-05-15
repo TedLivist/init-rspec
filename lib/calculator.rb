@@ -1,3 +1,5 @@
+# Calculator class
+
 class Calculator
   def add(*args)
     sum = 0
